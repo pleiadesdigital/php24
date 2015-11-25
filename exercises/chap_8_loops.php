@@ -13,7 +13,7 @@
 		<?php 
 			$i = 0;
 			for ($i=1; $i < $total; $i = $i += 2) { ?>
-				<li><?php echo $myArray[$i]; ?></li>
+				<li>The array element is: <?php echo $myArray[$i]; ?></li>
 		<?php } ?>
 	</ul>
 	
